@@ -20,14 +20,22 @@ namespace Business.Concrete
 
         public void Add(Car car)
         {
-            _carDal.Add(car);
-            Console.WriteLine("Araba başarıyla eklendi.");
+            if (car.Name.Length > 2 && car.DailyPrice > 0)
+            {
+                _carDal.Add(car);
+                Console.WriteLine("Araba başarıyla eklendi.");
+            }
         }
 
         public void Delete(Car car)
         {
             _carDal.Delete(car);
             Console.WriteLine("Araba başarıyla silindi.");
+        }
+
+        public Car Get(int id)
+        {
+            return _carDal.Get(p => p.Id == id);
         }
 
         public List<Car> GetAll()
