@@ -10,10 +10,19 @@
         "dependencies": {
           "Business": "1.0.0",
           "DataAccess": "1.0.0",
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "JetBrains.Annotations": "2022.1.0"
         },
         "runtime": {
           "ConsoleUI.dll": {}
+        }
+      },
+      "JetBrains.Annotations/2022.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "4242.42.42.42",
+            "fileVersion": "2022.1.0.0"
+          }
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -461,15 +470,26 @@
       "Business/1.0.0": {
         "dependencies": {
           "DataAccess": "1.0.0",
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "JetBrains.Annotations": "2022.1.0"
         },
         "runtime": {
           "Business.dll": {}
         }
       },
+      "Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9"
+        },
+        "runtime": {
+          "Core.dll": {}
+        }
+      },
       "DataAccess/1.0.0": {
         "dependencies": {
+          "Core": "1.0.0",
           "Entities": "1.0.0",
+          "JetBrains.Annotations": "2022.1.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9"
         },
         "runtime": {
@@ -477,6 +497,10 @@
         }
       },
       "Entities/1.0.0": {
+        "dependencies": {
+          "Core": "1.0.0",
+          "JetBrains.Annotations": "2022.1.0"
+        },
         "runtime": {
           "Entities.dll": {}
         }
@@ -488,6 +512,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "JetBrains.Annotations/2022.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ASfpoFJxiRsC9Xc4TWuPM41Zb/gl64xwfMOhnOZ3RnVWGYIZchjpWQV5zshJgoc/ZxVtgjaF7b577lURj7E6ig==",
+      "path": "jetbrains.annotations/2022.1.0",
+      "hashPath": "jetbrains.annotations.2022.1.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -770,6 +801,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -82,3 +82,6 @@ C:\Users\burca\source\C#CampProjects\ConsoleUI\bin\Debug\net6.0\Entities.pdb
 C:\Users\burca\source\C#CampProjects\ConsoleUI\obj\Debug\net6.0\ConsoleUI.csproj.CopyComplete
 C:\Users\burca\source\C#CampProjects\ConsoleUI\obj\Debug\net6.0\ConsoleUI.genruntimeconfig.cache
 C:\Users\burca\source\C#CampProjects\ConsoleUI\obj\Debug\net6.0\ref\ConsoleUI.dll
+C:\Users\burca\source\C#CampProjects\ConsoleUI\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Users\burca\source\C#CampProjects\ConsoleUI\bin\Debug\net6.0\Core.dll
+C:\Users\burca\source\C#CampProjects\ConsoleUI\bin\Debug\net6.0\Core.pdb
