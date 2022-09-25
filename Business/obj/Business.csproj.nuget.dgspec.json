@@ -46,6 +46,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2022.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,18 +68,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\burca\\source\\C#CampProjects\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\burca\\source\\C#CampProjects\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burca\\source\\C#CampProjects\\DataAccess\\DataAccess.csproj",
-        "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\burca\\source\\C#CampProjects\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\burca\\source\\C#CampProjects\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\burca\\source\\C#CampProjects\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\burca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burca\\source\\C#CampProjects\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\burca\\source\\C#CampProjects\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burca\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,11 +95,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\burca\\source\\C#CampProjects\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\burca\\source\\C#CampProjects\\Entities\\Entities.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -127,7 +129,79 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\burca\\source\\C#CampProjects\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\burca\\source\\C#CampProjects\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\burca\\source\\C#CampProjects\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\burca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\burca\\source\\C#CampProjects\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\burca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\burca\\source\\C#CampProjects\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\burca\\source\\C#CampProjects\\Core\\Core.csproj"
+              },
+              "C:\\Users\\burca\\source\\C#CampProjects\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\burca\\source\\C#CampProjects\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2022.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -154,7 +228,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\burca\\source\\C#CampProjects\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\burca\\source\\C#CampProjects\\Core\\Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -166,6 +244,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2022.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -182,7 +266,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
