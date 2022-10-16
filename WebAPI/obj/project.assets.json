@@ -77,6 +77,19 @@
           }
         }
       },
+      "FluentValidation/11.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "JetBrains.Annotations/2022.1.0": {
         "type": "package",
         "compile": {
@@ -2321,6 +2334,7 @@
           "Autofac.Extras.DynamicProxy": "6.0.1",
           "DataAccess": "1.0.0",
           "Entities": "1.0.0",
+          "FluentValidation": "11.2.2",
           "JetBrains.Annotations": "2022.1.0"
         },
         "compile": {
@@ -2334,6 +2348,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "FluentValidation": "11.2.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9"
         },
         "compile": {
@@ -2457,6 +2472,27 @@
         "lib/netstandard1.5/Castle.Core.dll",
         "lib/netstandard1.5/Castle.Core.xml",
         "readme.txt"
+      ]
+    },
+    "FluentValidation/11.2.2": {
+      "sha512": "5QEte2BUZZF6Sezeekr7Zu1THfgpxU7pmuL2SjIrajuGMah+pxPGiRiLtw+x/tSUSSVmcv9LrUe41lKu4l0n4A==",
+      "type": "package",
+      "path": "fluentvalidation/11.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.2.2.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "JetBrains.Annotations/2022.1.0": {

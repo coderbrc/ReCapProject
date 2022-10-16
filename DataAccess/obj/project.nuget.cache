@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Z/55ofZLYaABRE6TpDaOh+mJ6BPFtKJq96VTPxH+5Q5nHyzDjAtQVNJNf+rlA0DDULe7xry8a96Ki6z+MQuitQ==",
+  "dgSpecHash": "C5GTpiRbst9OSi6/S6/eAvO8B/BVUiK4W7PK/1rNUBpoJ3h8fYuPBq6VJoQXxUl4NeBK27ge1FYNrdIdsfewjw==",
   "success": true,
   "projectFilePath": "C:\\Users\\burca\\source\\C#CampProjects\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\burca\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "C:\\Users\\burca\\.nuget\\packages\\jetbrains.annotations\\2022.1.0\\jetbrains.annotations.2022.1.0.nupkg.sha512",
     "C:\\Users\\burca\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\burca\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

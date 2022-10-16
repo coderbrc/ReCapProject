@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Lyhn/J5tSb1a1LRDxGvBKlq5DR54BFiQo1/QPtKvYlY3wgL2PuHGMpjHLJzpFuIYld8OvGRI4veQ9Gb4yKrn+Q==",
+  "dgSpecHash": "0GKTYT+BfQco+6nQ3UmKsd2RTfkcbLqM249r1NEFdx3VlMdT2ylOT3xhUM4YQ3uTq1IFzmuT+vJQ5gLvHk531Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\burca\\source\\C#CampProjects\\Core\\Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\burca\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "C:\\Users\\burca\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\burca\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\burca\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
