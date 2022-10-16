@@ -66,3 +66,7 @@ C:\Users\burca\source\C#CampProjects\WebAPI\obj\Debug\net6.0\refint\WebAPI.dll
 C:\Users\burca\source\C#CampProjects\WebAPI\obj\Debug\net6.0\WebAPI.pdb
 C:\Users\burca\source\C#CampProjects\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
 C:\Users\burca\source\C#CampProjects\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+C:\Users\burca\source\C#CampProjects\WebAPI\bin\Debug\net6.0\Autofac.dll
+C:\Users\burca\source\C#CampProjects\WebAPI\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\burca\source\C#CampProjects\WebAPI\bin\Debug\net6.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\burca\source\C#CampProjects\WebAPI\bin\Debug\net6.0\Castle.Core.dll
