@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "mxGNjNZNMgct1Xwkk9syKTkgiVpZ4OIrLoTE3v2Rf3YYWAy4dlHGIeBfIkK9AN+YBSgMNaX91bS99hUIOcn4qA==",
+  "dgSpecHash": "6NH+lZdlYUsEvGyH+6su+23bweE5gHtwMDPHxq8UeqSHYbFx+Z4QdQmrNag5RWgWzMay52ij2Y1xEy0ZLWWLww==",
   "success": true,
   "projectFilePath": "C:\\Users\\burca\\source\\C#CampProjects\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burca\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
+    "C:\\Users\\burca\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\burca\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
     "C:\\Users\\burca\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\burca\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
