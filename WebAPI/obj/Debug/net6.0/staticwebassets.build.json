@@ -1,11 +1,105 @@
 {
   "Version": 1,
-  "Hash": "7/8N/7vR8Gil4oF52j1JyaDaDh/w/bwrwTANJiMV94U=",
+  "Hash": "Ku6gmX88ng6NPtKptRVYCB163pWymuJ58NEmP2mEndA=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPI\\wwwroot",
+      "Source": "WebAPI",
+      "ContentRoot": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\WebAPI\\wwwroot\\images\\332cd510-1027-40eb-9137-f249997aaf6e.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "images/332cd510-1027-40eb-9137-f249997aaf6e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\332cd510-1027-40eb-9137-f249997aaf6e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\WebAPI\\wwwroot\\images\\660afb61-b15b-40c9-971d-b01a208e003d.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "images/660afb61-b15b-40c9-971d-b01a208e003d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\660afb61-b15b-40c9-971d-b01a208e003d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\WebAPI\\wwwroot\\images\\79e67ca9-ae39-4cb5-89e0-7758e62c3569.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "images/79e67ca9-ae39-4cb5-89e0-7758e62c3569.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\79e67ca9-ae39-4cb5-89e0-7758e62c3569.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\WebAPI\\wwwroot\\images\\ddcd80bf-c644-4604-b767-c7883ed07846.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "images/ddcd80bf-c644-4604-b767-c7883ed07846.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ddcd80bf-c644-4604-b767-c7883ed07846.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\WebAPI\\wwwroot\\images\\Default.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "images/Default.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Default.jpg"
+    }
+  ]
 }

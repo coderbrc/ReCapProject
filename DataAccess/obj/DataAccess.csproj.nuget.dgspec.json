@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\burca\\source\\C#CampProjects\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\burca\\source\\C#CampProjects\\Core\\Core.csproj": {
+    "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burca\\source\\C#CampProjects\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\burca\\source\\C#CampProjects\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\burca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burca\\source\\C#CampProjects\\Core\\obj\\",
+        "outputPath": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burca\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,6 +56,10 @@
               "target": "Package",
               "version": "[11.2.2, )"
             },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.9, )"
@@ -77,18 +81,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\burca\\source\\C#CampProjects\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burca\\source\\C#CampProjects\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\burca\\source\\C#CampProjects\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\burca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burca\\source\\C#CampProjects\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burca\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -105,11 +109,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\burca\\source\\C#CampProjects\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\burca\\source\\C#CampProjects\\Core\\Core.csproj"
+              "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\Core\\Core.csproj"
               },
-              "C:\\Users\\burca\\source\\C#CampProjects\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\burca\\source\\C#CampProjects\\Entities\\Entities.csproj"
+              "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -149,18 +153,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\burca\\source\\C#CampProjects\\Entities\\Entities.csproj": {
+    "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burca\\source\\C#CampProjects\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\burca\\source\\C#CampProjects\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\burca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burca\\source\\C#CampProjects\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burca\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -177,8 +181,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\burca\\source\\C#CampProjects\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\burca\\source\\C#CampProjects\\Core\\Core.csproj"
+              "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\Core\\Core.csproj"
               }
             }
           }
@@ -214,7 +218,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
