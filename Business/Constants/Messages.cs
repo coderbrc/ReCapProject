@@ -28,5 +28,13 @@ namespace Business.Constants
         public static string CustomerAdded = "Müşteri başarıyla eklendi";
         public static string RentalAdded = "Kiralama kaydı başarıyla eklendi";
         public static string InvalidRental = " Kiralanacak araba müsait değil";
+        public static string AuthorizationDenied = "Yetkiniz yok";
+        public static string SuccessfulLogin = "Giriş başarılı";
+        public static string SuccessfulRegister = "Kayıt başarılı";
+        public static string UserAlreadyExist = "Kullanıcı zaten mevcut";
+        public static string AccessTokenCreated = "Token başarıyla oluşturuldu";
+        public static string UserDeleted = "Kullanıcı başarıyla silindi";
+        public static string UserListed = "Kullanıcılar başarıyla listelendi";
+        internal static string UserUpdated="Kullanıcı başarıyla güncellendi";
     }
 }

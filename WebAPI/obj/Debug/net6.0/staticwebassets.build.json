@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ku6gmX88ng6NPtKptRVYCB163pWymuJ58NEmP2mEndA=",
+  "Hash": "5PRZXXJabeu64vrDPKUPImjEdShy8eWqyqJK6MuVJNU=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\79e67ca9-ae39-4cb5-89e0-7758e62c3569.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\WebAPI\\wwwroot\\images\\9ad1ba00-dc3b-4964-be18-b321edb1808d.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "images/9ad1ba00-dc3b-4964-be18-b321edb1808d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\9ad1ba00-dc3b-4964-be18-b321edb1808d.jpg"
     },
     {
       "Identity": "C:\\Users\\burca\\Documents\\GitHub\\ReCapProject\\WebAPI\\wwwroot\\images\\ddcd80bf-c644-4604-b767-c7883ed07846.jpg",
