@@ -1,7 +1,10 @@
 ﻿using Business.Abstract;
+using Core.Aspects.Autofac.Caching;
 using Entities.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace WebAPI.Controllers
 {
@@ -26,6 +29,7 @@ namespace WebAPI.Controllers
             return BadRequest(result.Message);
         }
         [HttpPost("add")]
+        [CacheRemoveAspect("IBrandService.Get")]
         public IActionResult Add(Brand brand)
         {
             var result = _brandService.Add(brand);
@@ -56,6 +60,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
         [HttpPost("update")]
+        [CacheRemoveAspect("IBrandService.Get")]
         public IActionResult Update(Brand brand)
         {
             var result = _brandService.Update(brand);

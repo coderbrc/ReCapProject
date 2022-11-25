@@ -8,12 +8,13 @@ namespace Business.Constants
 {
     public static class Messages
     {
-        public static string ProductAdded = "Araba başarıyla eklendi";
-        public static string ProductNameInvalid = "Araba ismi geçersiz";
-        public static string DailyPriceInvalid = "Günlük fiyat tutarı geçersiz";
-        public static string ProductDeleted = "Araba başarıyla silindi";
-        public static string ProductUpdated = "Araba başarıyla silindi";
-        public static string ProductListed = "Arabalar listelendi";
+        public static string CarAdded = "Araba başarıyla eklendi";
+        public static string CarNameInvalid = "Araba ismi geçersiz";
+        public static string CariceInvalid = "Günlük fiyat tutarı geçersiz";
+        public static string CarDeleted = "Araba başarıyla silindi";
+        public static string CarUpdated = "Araba başarıyla silindi";
+        public static string CarListed = "Arabalar listelendi";
+        public static string CarNameAlreadyExists = "Araba ismi zaten mevcut";
         public static string BrandNameInvalid = "Marka ismi geçersiz";
         public static string BrandAdded = "Marka başarıyla eklendi";
         public static string BrandDeleted = "Marka başarıyla silindi";
@@ -35,6 +36,6 @@ namespace Business.Constants
         public static string AccessTokenCreated = "Token başarıyla oluşturuldu";
         public static string UserDeleted = "Kullanıcı başarıyla silindi";
         public static string UserListed = "Kullanıcılar başarıyla listelendi";
-        internal static string UserUpdated="Kullanıcı başarıyla güncellendi";
+        public static string UserUpdated = "Kullanıcı başarıyla güncellendi";
     }
 }
